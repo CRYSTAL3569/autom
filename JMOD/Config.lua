@@ -1,1 +1,1 @@
-Config.Class = "Paladin"
+Config.Class = "Sorceress"
