@@ -85,8 +85,8 @@ Config.Scripts.Izual.Enabled 				  = false
 Config.Scripts.Hephasto.Enabled 			  = false
 Config.Scripts.Hephasto.ClearRiver 			  = false
 
-Config.Scripts.Diablo.Enabled                 = false
-Config.Scripts.Diablo.Entrance                = false
+Config.Scripts.Diablo.Enabled                 = true
+Config.Scripts.Diablo.Entrance                = true
 Config.Scripts.Diablo.LastSealID			  = false
 
 Config.Scripts.FastDiablo.Enabled             = false
@@ -113,11 +113,11 @@ Config.Scripts.Nihlathak.Enabled              = false
 
 Config.Scripts.Worldstone.Enabled             = false
 
-Config.Scripts.Baal.Enabled                   = false
-Config.Scripts.Baal.DollQuit                  = false
-Config.Scripts.Baal.SoulQuit                  = false
+Config.Scripts.Baal.Enabled                   = true
+Config.Scripts.Baal.DollQuit                  = true
+Config.Scripts.Baal.SoulQuit                  = true
 Config.Scripts.Baal.SellItem				  = false
-Config.Scripts.Baal.KillBaal                  = false
+Config.Scripts.Baal.KillBaal                  = true
 
 --[[ EXTRA ]] --
 
@@ -140,7 +140,7 @@ Config.GameType       = 0       -- [Quick Play: 0 | Lobby: 1 (requires GameName)
 Config.GameName       = ""      -- Game name the bot will use. Bot will add numbers at the end automatically.
 Config.GamePassword   = ""      -- Game password, set to "" for no password.
 Config.MinGameTime    = 90      -- Minimum game time in seconds. If the bot finishes the run early it will wait in town until the time is reached.
-Config.MaxGameTime    = 2700    -- Max game time in seconds. If the bot has not finished the run before this time is reached, it will quit the game.
+Config.MaxGameTime    = 3600    -- Max game time in seconds. If the bot has not finished the run before this time is reached, it will quit the game.
 Config.MakeWalk       = false   -- Restrict char from teleporting. Useful for low level/low mana chars.
 
 -- #### DClone Settings ####
@@ -148,7 +148,7 @@ Config.StopOnDClone = true
 Config.WarnSOJSelled = true
 
 -- #### Chicken Settings ####
-Config.LifeChicken    = 20      -- Exit game if life is less or equal to designated percent.
+Config.LifeChicken    = 10      -- Exit game if life is less or equal to designated percent.
 Config.ManaChicken    = 0       -- Exit game if mana is less or equal to designated percent.
 Config.MercChicken    = 0       -- Exit game if merc's life is less or equal to designated percent.
 Config.TownHP         = 30      -- Go to town if life is under designated percent.
@@ -165,16 +165,16 @@ Config.StashGold      = 300000  -- Minimum amount of gold to stash.
 Config.RepairPercent  = 35      -- Durability percent of any equipped item that will trigger repairs.
 
 -- #### Potion Settings ####
-Config.UseHP          = 75      -- Drink a healing potion if life is under designated percent.
-Config.UseRejuvHP     = 40      -- Drink a rejuvenation potion if life is under designated percent.
+Config.UseHP          = 80      -- Drink a healing potion if life is under designated percent.
+Config.UseRejuvHP     = 50      -- Drink a rejuvenation potion if life is under designated percent.
 Config.UseMP          = 30      -- Drink a mana potion if mana is under designated percent.
-Config.UseRejuvMP     = 10      -- Drink a rejuvenation potion if mana is under designated percent.
+Config.UseRejuvMP     = 05      -- Drink a rejuvenation potion if mana is under designated percent.
 Config.UseMercHP      = 70      -- Give a healing potion to your merc if his/her life is under designated percent.
 Config.UseMercRejuv   = 35      -- Give a rejuvenation potion to your merc if his/her life is under designated percent.
 
 -- Potion types for belt columns from left to right. Rejuvenation potions must always be rightmost.
 -- Supported potions - Healing ("hp"), Mana ("mp") and Rejuvenation ("rv")
-Config.BeltColumn     = { "hp", "mp", "rv", "rv" }
+Config.BeltColumn     = { "hp", "mp", "mp", "rv" }
 
 -- Minimum amount of potions from left to right. If we have less, go to vendor to purchase more.
 -- Set rejuvenation columns to 0, because they can't be bought.
@@ -564,7 +564,7 @@ For this recipe you need to add a line in your pickit like
 This will cause the bot to keep 1x Eth Thresher for crafting after bot does the craft, he will only keep
 Eth Thresher that has 4 sockets if the resulting craft is 1 OR 2 OR 3 socket bot will discard the resulting item.
 ]]--
-Config.Cubing   = false
+Config.Cubing   = true
 Config.Recipes  = {
   { Recipe.Gem, "Flawless Amethyst" }, -- Make Perfect Amethyst
   --{ Recipe.Gem, "Flawless Topaz" }, -- Make Perfect Topaz
