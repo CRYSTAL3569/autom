@@ -9,7 +9,7 @@ Config.Scripts.Corpsefire.ClearDen			  = false
 Config.Scripts.Tristram.Enabled				  = false
 Config.Scripts.Tristram.KillRakanishu		  = false
 
-Config.Scripts.Cows.Enabled                   = true
+Config.Scripts.Cows.Enabled                   = false
 Config.Scripts.Cows.KillRakanishu			  = false
 
 Config.Scripts.Mausoleum.Enabled              = true
@@ -87,7 +87,7 @@ Config.Scripts.Hephasto.ClearRiver 			  = false
 
 Config.Scripts.Diablo.Enabled                 = true
 Config.Scripts.Diablo.Entrance                = true
-Config.Scripts.Diablo.LastSealID			  = false
+Config.Scripts.Diablo.LastSealID			  = true
 
 Config.Scripts.FastDiablo.Enabled             = false
 Config.Scripts.FastDiablo.LastSealID		  = false
@@ -166,11 +166,11 @@ Config.RepairPercent  = 35      -- Durability percent of any equipped item that 
 
 -- #### Potion Settings ####
 Config.UseHP          = 80      -- Drink a healing potion if life is under designated percent.
-Config.UseRejuvHP     = 50      -- Drink a rejuvenation potion if life is under designated percent.
-Config.UseMP          = 30      -- Drink a mana potion if mana is under designated percent.
-Config.UseRejuvMP     = 05      -- Drink a rejuvenation potion if mana is under designated percent.
-Config.UseMercHP      = 70      -- Give a healing potion to your merc if his/her life is under designated percent.
-Config.UseMercRejuv   = 35      -- Give a rejuvenation potion to your merc if his/her life is under designated percent.
+Config.UseRejuvHP     = 40      -- Drink a rejuvenation potion if life is under designated percent.
+Config.UseMP          = 20      -- Drink a mana potion if mana is under designated percent.
+Config.UseRejuvMP     = 0      -- Drink a rejuvenation potion if mana is under designated percent.
+Config.UseMercHP      = 50      -- Give a healing potion to your merc if his/her life is under designated percent.
+Config.UseMercRejuv   = 20      -- Give a rejuvenation potion to your merc if his/her life is under designated percent.
 
 -- Potion types for belt columns from left to right. Rejuvenation potions must always be rightmost.
 -- Supported potions - Healing ("hp"), Mana ("mp") and Rejuvenation ("rv")
@@ -574,7 +574,7 @@ Config.Recipes  = {
   --{ Recipe.Gem, "Flawless Diamond" }, -- Make Perfect Diamond
   --{ Recipe.Gem, "Flawless Skull" }, -- Make Perfect Skull
 
-  --{ Recipe.Token }, -- Make Token of Absolution
+  { Recipe.Token }, -- Make Token of Absolution
 
   --{ Recipe.Rune, "Lem Rune" }, -- Upgrade Lem to Pul
   --{ Recipe.Rune, "Pul Rune" }, -- Upgrade Pul to Um
