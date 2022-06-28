@@ -27,7 +27,7 @@
 //[Name] == Greaterhealingpotion
 //[Name] == Greatermanapotion
 [Name] == Superhealingpotion
-[Name] == Supermanapotion
+//[Name] == Supermanapotion
 //[Name] == Rejuvenationpotion
 [Name] == Fullrejuvenationpotion
 
@@ -112,20 +112,20 @@
 //[Name] == Skull
 //[Name] == Sapphire
 //[Name] == Topaz
-//[Name] == Flawlessamethyst
-//[Name] == Flawlessdiamond
-//[Name] == Flawlessemerald
-//[Name] == Flawlessruby
-//[Name] == Flawlesssapphire
-//[Name] == Flawlessskull
-//[Name] == Flawlesstopaz
-//[Name] == Perfectamethyst
-//[Name] == Perfectdiamond
-//[Name] == Perfectemerald
-//[Name] == Perfectruby
-//[Name] == Perfectsapphire
-//[Name] == Perfectskull
-//[Name] == Perfecttopaz
+[Name] == Flawlessamethyst
+[Name] == Flawlessdiamond
+[Name] == Flawlessemerald
+[Name] == Flawlessruby
+[Name] == Flawlesssapphire
+[Name] == Flawlessskull
+[Name] == Flawlesstopaz
+[Name] == Perfectamethyst
+[Name] == Perfectdiamond
+[Name] == Perfectemerald
+[Name] == Perfectruby
+[Name] == Perfectsapphire
+[Name] == Perfectskull
+[Name] == Perfecttopaz
 
 //=========================================================================//
 //<<<<<<<<<<<<<<<<<<<<<<<<<<++++ Magic Items ++++>>>>>>>>>>>>>>>>>>>>>>>>>>//
